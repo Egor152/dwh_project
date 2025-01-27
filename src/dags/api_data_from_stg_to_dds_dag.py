@@ -13,10 +13,10 @@ log = logging.getLogger(__name__)
 postgres_conn = 'PG_WAREHOUSE_CONNECTION'
 conn = psycopg2.connect(
     dbname='de',
-    user='jovyan',
-    password='jovyan',
-    host='localhost',
-    port='5432'
+    user='Скрыл по просьбе Яндекс Практикума',
+    password='Скрыл по просьбе Яндекс Практикума',
+    host='Скрыл по просьбе Яндекс Практикума',
+    port='Скрыл по просьбе Яндекс Практикума'
 )
 
 def get_couriers_from_stg():

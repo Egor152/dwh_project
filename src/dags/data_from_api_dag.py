@@ -8,11 +8,11 @@ import json
 import psycopg2
 log = logging.getLogger(__name__)
 
-nickname = 'egor'
-cohort = '24'
-api_key = '25c27781-8fde-4b30-a22e-524044a7580f'
+nickname = 'Скрыл по просьбе Яндекс Практикума'
+cohort = 'Скрыл по просьбе Яндекс Практикума'
+api_key = 'Скрыл по просьбе Яндекс Практикума'
 
-base_url = 'https://d5d04q7d963eapoepsqr.apigw.yandexcloud.net/'
+base_url = 'Скрыл по просьбе Яндекс Практикума'
 
 headers = {
     'X-Nickname': nickname,
@@ -22,11 +22,11 @@ headers = {
 
 
 conn = psycopg2.connect(
-    dbname='de',
-    user='jovyan',
-    password='jovyan',
-    host='localhost',
-    port='5432'
+    dbname='Скрыл по просьбе Яндекс Практикума',
+    user='Скрыл по просьбе Яндекс Практикума',
+    password='Скрыл по просьбе Яндекс Практикума',
+    host='Скрыл по просьбе Яндекс Практикума',
+    port='Скрыл по просьбе Яндекс Практикума'
 )
 
 

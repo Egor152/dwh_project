@@ -11,11 +11,11 @@ from decimal import Decimal
 log = logging.getLogger(__name__)
 
 conn = psycopg2.connect(
-    dbname='de',
-    user='jovyan',
-    password='jovyan',
-    host='localhost',
-    port='5432'
+    dbname='Скрыл по просьбе Яндекс Практикума',
+    user='Скрыл по просьбе Яндекс Практикума',
+    password='Скрыл по просьбе Яндекс Практикума',
+    host='Скрыл по просьбе Яндекс Практикума',
+    port='Скрыл по просьбе Яндекс Практикума'
 )
 
 def get_data_for_mart():
